@@ -62,7 +62,7 @@
 					<input type="password" name="user-password" id="password">
 
 					<label for="bio">Biography: </label>
-					<textarea name="user-bio"></textarea>
+					<textarea name="user-bio" id="bio"></textarea>
 				</fieldset>
 
 				<fieldset>
@@ -70,6 +70,17 @@
 						<span class="number">2</span>
 						Work Details
 					</legend>
+					<label>Preferred Work Setup</label>
+
+					<!-- First radio button for "hybrid" option -->
+					<input type="radio" name="work-setup" id="hybrid" value="hybrid">
+					<label for="hybrid" class="light">Hybrid</label>
+
+					<!-- Second radio button for "remote" option -->
+					<input type="radio" name="work-setup" id="remote" value="remote">
+					<label for="remote" class="light">Remote</label>
+
+					<input type="submit" value="Sumbit">
 				</fieldset>
 			</form>
 
